@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height:100%;
+}
+
+ body{
+   background:#c7d59f;  /*light green*/
+ }
+
+.title{
+  padding: 40px;
+  text-align: center;
+}
+
+ img{   /*icons*/
+   width: 50px;
+   height:auto;
+ }
+
+ h1{
+   display: inline-block;
+   margin-top: 10px;
+   color: #4b5842;  /*dark green*/
+   font-family: 'Potta One', cursive;
+   font-size: 50px;
+ }
+
+ .container{
+   height:450px;
+   width:300px;
+   border: 5px solid #4b5842; /*dark green*/
+   border-radius: 10px;
+   background-color: #c5efcb;  /*light green*/
+   text-align: center;
+   margin: 20px auto;
+ }
+
+ .container>h1{
+   margin-top: 20px;
+   font-size: 30px;
+ }
+
+ h2{
+   font-family: 'Architects Daughter', cursive;
+   font-size: 20px;
+   margin-top:50px;
+   color: #3e8989; /*dark green*/
+ }
+
+#number{
+  height: 35px;
+  width:100px;
+  border: 3px solid #5b8266;  /*dark green*/
+  border-radius: 5px;
+  text-align: center;
+  margin: 30px auto;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  background-color: #a9c5a0; /*light green*/
+  color: #6d6875; /*green*/
+}
+
+#add{
+  height:40px;
+  width: 100px;
+  margin-right: 20px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  color: #6d6875;  /*green*/
+  background-color: #a9c5a0;  /*light green*/
+  border: 3px solid #5b8266;  /*dark green*/
+  border-radius: 5px;
+}
+
+#decrease{
+  height:40px;
+  width: 100px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  color: #6d6875;  /*green*/
+  background-color: #a9c5a0;  /*light green*/
+  border: 3px solid #5b8266;   /*dark green*/
+  border-radius: 5px;
+}
+
+/* Adaptability */
+
+@media screen and (max-width: 667px){
+  h1{font-size: 30px;}
+  img{
+    width: 30px;
+    height: auto;
+  }
+}
